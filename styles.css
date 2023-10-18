@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: brown;
+    display: flex;
+    flex-shrink: 0;
+    height: 56px;
+}
+
+aside {
+    background-color: yellow;
+}
+
+main .side-menu .main-content {
+    overflow: scroll;
+}
+
+
+main {
+    background-color: aqua;
+    flex-grow: 1;
+    display: flex;
+}
+
+.side-menu {
+    width: 240px;
+    background-color: dimgray;
+    flex-shrink: 0;
+}
+
+.main-content {
+    background-color: darkorange;
+    flex-grow: 1;
+}
